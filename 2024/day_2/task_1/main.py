@@ -12,7 +12,6 @@ with open(TEST_FILE_PATH, 'r') as input:
 safe_reports_count = 0
 for report in data:
     safe = True
-    prev_level = None
     wasIncreasing = False
     prev_level = report[0]
     first_time = True
